@@ -1,0 +1,24 @@
+#Exercise1
+cap1 = {"Tamilnadu":"Chennai","Andhra":"Hyderabad","Karnataka":"bangalore", "Kerala":"Trivandrum"}
+cap2 = {"Madhya pradesh":"Mumbai", "West bengal":"Kolkata","Maharastra":"Pune"}
+cap3 = {**cap1, **cap2}
+print(cap3)
+
+#Exercise2
+cap={"Tamilnadu":"Chennai","Andhra":"Hyderabad","Karnataka":"bangalore", "Kerala":"Trivandrum"}
+cap.pop('Kerala')
+print(cap)
+
+#Exercise3
+keys = ['orange','green','violet']
+values = ['fruit','apple','brinjal']
+print(dict(zip(keys, values)))
+
+#Exercise4
+CSK = {"Dhoni","Bravo","Jaddu","faf"}
+print(len(CSK))
+
+#Exercise5
+cap5 = {"chennai","Hyderabad","Bangalore","Trivandrum"}
+cap6 = {"chennai","Mumbai","Bangalore"}
+print(cap5-cap6)
