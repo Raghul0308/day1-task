@@ -1,0 +1,26 @@
+#exercise1
+#a
+x=[2,4,6,3]
+x.append(10)
+print(x)
+#b
+del x[1]
+print(x)
+#c
+a=max(x)
+print(a)
+#d
+b=min(x)
+print(b)
+
+
+#exercise2
+x=('apple','banana','cinamon','grape')
+a=reversed(x)
+print(tuple(a))
+
+
+#exercise3
+x=(10,20,30,40,50)
+y=list(x)
+print(y)
