@@ -1,0 +1,29 @@
+#exercise1
+list.py
+cars=["BMW", "AUDI", "RR", "BENTLY"]
+ex1.py
+import list
+print("actual list",list.cars)
+list.cars[1]="FERRARI"
+print("after list changed",list.cars)
+
+#exercise2
+import pandas as pd
+import numpy as np
+df = pd.DataFrame({
+    "Bikes": ['Yamaha', 'Honda', 'Bajaj', 'TVS', 'Suzuki'],
+    "Model": ['R15', 'CBR250', 'Pulsar RS200', 'Apache RR310', 'Gixxer250'],
+    "CC": [155, 250, 200, 300, 250],
+    "BHP": [19, 26, 25, 30, 26 ]
+})
+print(df)
+
+#exercise3
+import random
+a=random.random() * 100
+print(int(a))
+
+#exercise4
+import sys
+a=sys.path
+print(a)
