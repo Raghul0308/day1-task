@@ -1,0 +1,26 @@
+#exercise1
+z= lambda x,y: x*y
+print(z(20,15))
+
+#exercise2
+def fibonacci(count):
+fib_list = [0, 1]
+any(map(lambda _: fib_list.append(sum(fib_list[-2:])), range(2, count)))
+return fib_list[:count]
+print(fibonacci(10))
+
+#exercise3
+list1=[1, 2, 3, 4, 5]
+a=int(input("Enter a number"))
+multi=list(map(lambda n: n*a, list1))
+print(multi)
+
+#exercise4
+list2=[9,18,20,36,45,63,65]
+div=list(filter(lambda a: a%9==0, list2))
+print(div)
+
+#exercise5
+list3=[2,3,4,5,6,7,8,9]
+div1=list(filter(lambda a: a%2==0, list3))
+print(len(div1))
